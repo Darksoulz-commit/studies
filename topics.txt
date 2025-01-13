@@ -1,0 +1,133 @@
+Database Design and Normalization
+Principles of database design and normalization
+Understanding normalization forms (1NF, 2NF, 3NF, BCNF)
+Designing tables and relationships with normalization in mind
+
+
+MS SQL Server architecture and components (SQL Server Engine, SSMS, SQL Server Agent)
+Installation and configuration of SQL Server
+SQL Server Management Studio (SSMS)
+SQL Server databases, tables, and data types
+
+
+Basic T-SQL Syntax and Queries
+T-SQL & SQL Server syntax
+SQL queries: SELECT, FROM, WHERE, ORDER BY, GROUP BY
+Filtering and sorting data, using aggregate functions (SUM, COUNT, AVG)
+
+
+Data Retrieval and Basic Joins
+inner joins
+left joins
+right joins
+full joins
+Combining data from multiple tables
+Hands-on exercises: writing basic queries and joins
+
+Advanced T-SQL Querying
+Subqueries and derived tables
+Common Table Expressions (CTEs)
+Window functions (e.g., ROW_NUMBER, RANK, LEAD, LAG)
+
+Data Manipulation Language (DML)
+INSERT
+UPDATE
+DELETE
+MERGE statement for data manipulation
+Hands-on exercises: writing DML queries
+
+
+Transactions and Error Handling
+Transactions in SQL Server
+ACID Properties
+Transactions with BEGIN, COMMIT, and ROLLBACK
+Error Handling using TRY…CATCH Blocks
+Nested Transactions and Save Points
+Practical exercises on managing transactions and error handling
+
+Advanced Indexing Techniques
+Introduction to indexing: clustered and non-clustered indexes
+Best practices for creating and managing indexes
+Understanding query execution plans and using SQL Server Profiler for performance analysis
+Covering indexes, filtered indexes, and indexed views
+Performance tuning techniques: statistics, fragmentation, and maintenance
+Hands-on exercises: optimizing queries with indexing
+
+Working with Functions and Stored Procedures
+Creating and using user-defined functions (scalar and table-valued)
+Creating, altering, and executing stored procedures
+Parameterization and error handling in stored procedures
+
+Triggers and Advanced Stored Procedures
+Introduction to triggers: AFTER and INSTEAD OF triggers
+Writing complex stored procedures with dynamic SQL
+Hands-on exercises: creating functions, stored procedures, and triggers
+
+
+NoSQL Concepts and Background
+Describe the basic structure of NoSQL
+Identify some of the traits of NoSQL systems
+Identify some of the key points of NoSQL systems
+Recall the four most common categories of NoSQL systems
+Recall some of the major milestones in the NoSQL development process
+Recognize the importance of queries versus updates
+Recognize characteristics that would make NoSQL a better choice than RDMS
+Define BASE
+Define CAP and Brewer's theorem
+Define SPRAIN
+
+Installing MongoDB
+What is MongoDB?
+Describe the key features MongoDB provides
+Describe data model design
+Describe the installation options for MongoDB
+Describe the packages and considerations for installing MongoDB on Linux
+Installing MongoDB
+Connect to a MongoDB database
+Use the mongo shell
+
+
+Write, Read, & Aggregate Data
+Describe CRUD
+Describe how MongoDB stores data
+Create and insert documents in MongoDB
+Remove documents from a MongoDB database
+Describe how read operations retrieve data
+Describe how cursors are used
+Use the find() method to query documents
+Describe aggregation
+Use aggregation pipeline to transform documents
+Install MongoDB and read and aggregate data
+
+
+Indexes & Query Optimization
+Describe indexes
+Describe the different types of indexes
+Describe the index properties that can be set
+Describe how query optimization works
+Create single indexes
+Create compound indexes
+
+
+Replication & Security
+Describe how replication is used in MongoDB
+Describe the replica set deployment architectures
+Describe replica set high availability
+Describe the read and write semantics for replica sets
+Deploy a replica set
+Describe how data synchronization is used to replicate data between members
+Identify how security is implemented in a MongoDB database
+Identify the authentication mechanisms
+Create users with read and write privileges
+
+
+MongoDB with Python
+Install, set up, and connect to MongoDB using PyMongo
+Make a database connection and get a database or collection
+Insert, query, update, and delete data
+Query by ObjectId and use find and find_one
+Install and use the Python GridFS package
+Create, delete, and manipulate fssiles in GridFS
+Query data and find files in GridFS
+Use streaming to upload and download files
+Use Python to connect and interact with MongoDB
